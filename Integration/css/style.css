@@ -1,0 +1,624 @@
+
+html 
+{
+font-size: 62.5%; /* equivalent à 10px */
+/* background:url(../img/grille.png);
+background-repeat: repeat-y ;
+background-position: top center;*/
+}
+
+body 
+{
+  font-size: 1.4rem; /* equivalent à 14px */
+	font-family: Quicksand, sans-serif;
+}
+
+*
+{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+
+.wrapper
+{
+	margin: auto;
+	width: 1230px;
+}
+
+.flexbox
+{
+	display: flex;
+}
+
+li
+{
+	list-style-type: none;
+ }
+
+ li a 
+ {
+ 	color: white;
+}
+a
+{
+	cursor:pointer;
+	text-decoration: none;
+}
+
+ header
+{
+	background-color: #062281;
+}
+header div
+{
+	margin: 20px 0 -45px 0;
+}
+.logo
+{
+	width: 20%;
+	margin-top: 6px;
+}
+.logo img
+{
+	width: 100%;
+}
+
+.text_head
+{
+	margin-left: auto;
+	width: 80%;
+	justify-content: space-between;
+}
+
+
+header div ul li{
+	display: inline-block;
+	justify-content:space-between;
+	text-align: center;
+	width: 20%;
+	transition:background-color 300ms;
+}
+
+header div ul li:hover a
+{
+	color: white;
+	border-bottom: 1px solid;
+}
+
+nav
+{
+	background-color: #07DCDF;
+
+}
+
+nav ul
+{
+	text-transform: uppercase;
+	height: 50px;
+	width: 80%;
+	margin-left: auto;
+	font-size: 1.8rem;
+
+}
+
+nav ul li
+ {
+ 	transition:background-color 300ms;
+    cursor:pointer;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+	align-items:center;
+ }
+
+ nav ul li:hover
+ {
+ background-color: #0DCACD;
+ }
+
+ 
+						/* HOME */
+ 
+/* MAIN */
+.hero
+{
+	background:url(../img/photo_1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 600px;
+}
+
+.bouton-decouvrir
+{
+	height: 50px;
+	width: 204px;	
+	margin: auto;
+	font-size: 1.8rem;
+
+}
+
+.bouton-decouvrir a
+{
+	color: white;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 0;
+    display: inline-block;
+    background-color: #062281;
+    border: 0.1rem solid white; 	
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+   transition:background-color 1s;
+}
+
+.bouton-decouvrir a:hover
+{
+	background-color: #07DCDF;
+}
+
+
+h1
+{
+	font-size: 5rem;
+	line-height: 7rem;
+	color: white;
+	text-align: center;
+	padding-top: 150px;
+	margin-top: 0;
+}
+
+
+
+
+
+/* a propos de nous*/
+
+
+h2
+{
+	font-size: 3.8rem;
+	color: #638789;;
+	margin: 50px 0 60px 0;
+	padding-bottom: 5px; 
+	text-align: center;
+
+}
+
+
+
+.text_courant
+{
+	font-size: 2rem;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 50px;
+	line-height: 4rem;
+}
+
+
+/* LES SERVICES*/
+
+.compet {
+	background-color: #C3F9FC;
+	margin-top: 70px;
+	padding-top: 10px; 
+	padding-bottom: 90px; 
+
+}
+
+
+.h_competences
+{
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 70px;
+}
+h3
+{
+	font-size: 2.2rem;
+	font-weight: 700;
+	color: #638789;
+	padding-bottom:13px;
+	text-align: center;
+}
+.picto_competences {
+	width:  35%;
+	height: 165px;
+	}
+
+
+.text_competences {
+	margin: 0 20px 0 20px;
+}
+
+
+
+	/* LES CLIENTS*/
+
+
+.picto_client {
+width:  80%;
+margin-bottom: -60px;
+}
+
+/* CONTACT*/
+
+
+.background_contact
+{
+	background-color: #C3F9FC;
+    padding-bottom: 4px;
+    padding-top: 20px;
+}
+.h_contact
+{
+	justify-content: space-between;
+		margin-bottom: 20px;
+
+}
+
+
+label {
+	width: 100px;
+
+    font-size: 2rem;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 4rem;
+    color: #5c4925;
+    text-align: right;
+ }
+ .mes {
+ 	margin-bottom: 10px;
+ }
+#nom, #prenom, #tel, #mail
+{ 
+     width: 285px;
+    height: 35px;
+    border: none;
+    margin: 10px 0 0 15px;
+    border: 1px solid #e4e1D2;
+    }
+
+.coordonnes
+{
+	width: 65%;
+	margin: auto;
+	padding-bottom: 50px;
+	margin-top: 40px;
+}
+
+#message
+{
+	width: 100%;
+	height: 150px;
+	vertical-align: top;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.envoyer
+{
+	color: white ;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 15px 0;
+    display: inline-block;
+    background-color: #062281;
+    border: 0.1rem solid white; 	
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    height: 50px;
+	margin: auto;
+	font-size: 1.8rem;
+	width: 204px ;
+	transition:background-color 1s;
+}
+
+
+.envoyer:hover
+{
+	background-color: #07DCDF ;
+}
+
+
+
+/* FOOTER*/
+
+
+
+
+
+.bkg_footer
+{
+	background-color: #062281;
+}
+.footer
+{
+justify-content:space-between;
+}
+.txt_footer
+{
+	font-size: 1.4rem;
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+	line-height: 2.2rem;
+	padding-bottom: 10px;
+}
+.txt_footer:before 
+{
+	content: url(../img/picto_localisation.svg);
+	cursor:pointer;
+	display: block;
+}
+.txt_reseau
+{
+	font-size: 1.6rem;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	line-height: 2.2rem;
+}
+
+.reseaux_
+{
+display: inline-block;
+margin: 10px;	
+cursor:pointer;
+
+}
+
+#email
+{
+	width: 300px;
+	height: 30px;
+	border: none;
+	padding-left: 5px;
+	font-size: 1.2rem;
+	font-style: italic;
+	margin-top: 10px;
+}
+.envoyer_nl
+{
+	height: 30px;
+	width: 30px;
+	border: none;
+	color: grey;
+	font-size: 1.2rem;
+	background-color: white;
+}
+
+
+.vide
+{
+	width: 13%;
+}
+
+
+/* PAGE EN COURS DE REALISATION*/
+
+.construction h1
+{
+	color: grey;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+
+
+
+
+
+
+/* MEDIAS QUERIES HOME */
+
+
+
+
+@media only screen and (max-width:768px)
+{
+	.wrapper
+	{
+		width: 100%;
+	}
+
+	/*  HOME */
+
+	h1
+	{
+		font-size: 2.9rem;
+		line-height: 3.5rem;
+		padding: 40px 40px 0px 60px; 
+	}
+
+	.hero{
+		 height: 400px;
+	}
+	
+	h2
+	{
+		font-size: 2.3rem;
+		margin-top: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 10px;
+	}
+	h3
+	{
+		font-size: 1.8rem;
+    	width: 100%;
+   		 padding-top: 20px;
+   		 padding-bottom: 0;
+	}
+	
+	.text_courant
+	{
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+		padding: 0	10px 20px 20px;
+		margin-top: 10px;
+	}
+
+	
+	.flexcol
+	{
+		flex-direction: column;
+	}
+
+	.picto_competences {
+    height: 150px;
+	}
+	.bouton-decouvrir a{
+		margin: 0;
+	}
+	.compet{
+		margin-top: 30px;
+		padding-bottom: 30px;
+	}
+	.h_competences
+	{
+		margin-bottom: 40px;
+	}
+	.picto_client {
+    width: 50%;
+    margin-bottom: 0; 
+	}
+
+	/*  CONTACT*/
+	.background_contact {
+    padding: 10px;
+	}
+	
+	.coordonnes {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 32px;
+    margin-top: 30px;
+
+	}
+
+	#page_contact input
+	{
+	    width: 95%;
+	    margin: 5px 0 0 5px;
+	}
+
+	#page_contact label 
+	{
+	display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-top: 7px;
+    margin-left: 10px;
+    line-height: 1.8rem;
+    color: #5c4925;
+    text-align: left;
+	}
+
+	.h_contact
+	{
+	justify-content: space-between;
+	margin-bottom: 0;
+	}
+
+	#page_contact .envoyer {
+	width: 204px ;
+	margin: auto;
+	margin-top: 15px;
+	}
+
+	/*  FOOTER */
+	.footer {
+	    flex-direction: column;
+		}
+	.txt_footer 
+	{
+	margin-top: 40px; 
+	}
+	
+	 .list-res  
+	 { text-align: center;
+	 }
+	.list-res li img
+	{
+	width: 100%;
+	padding: 5px 5px 0 5px;
+
+	}
+
+	#email{
+		margin-left: 25px;
+		width: 76%;
+		margin-bottom: 40px;
+	}
+	.txt_reseau
+	{    padding-top: 22px;
+		font-size: 1.7rem;
+	}
+	
+	.txt_footer
+	{
+		font-size: 1.8rem;
+		line-height: 2.2rem;
+	}
+
+		/*  NAV */
+
+
+	nav
+	{
+		display: none;
+	}
+
+	header div
+	{
+		margin: 0;
+	}
+	header div ul li
+	{
+		width: 100%;
+	}
+	
+	
+	
+	.he_direc
+	{
+		flex-direction:column;
+	}
+	.nav {
+    margin-left: 19px;
+    background: url(../img/menu_burger.svg) no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 55px;
+    margin-top: -25px;
+    margin-bottom: -10px;
+	}
+	.logo{
+		width: 60%;
+		margin:auto;
+		padding: 15px 0 10px 0;
+	}
+	
+}
+		/*  FIN MEDIAS QUERIES*/
+
+
+
+	
+	
+	
+
+
+
+

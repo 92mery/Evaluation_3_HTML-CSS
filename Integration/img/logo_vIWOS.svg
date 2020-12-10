@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 204.8 130.3" style="enable-background:new 0 0 204.8 130.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:url(#SVGID_2_);stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#2D8DCD;stroke-width:0.5;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Raleway-Bold';}
+	.st4{font-size:31.0793px;}
+	.st5{font-family:'MyriadPro-Regular';}
+	.st6{font-size:15.8421px;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="15.5141" y1="66.1039" x2="191.8114" y2="66.1039">
+	<stop  offset="0" style="stop-color:#56C4F2"/>
+	<stop  offset="1" style="stop-color:#130073"/>
+</linearGradient>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="15.0141" y1="66.1039" x2="192.3114" y2="66.1039">
+	<stop  offset="0" style="stop-color:#FFFFFF"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<path class="st0" d="M190.7,40.5c7.8,26.5-24.9,59.4-72.9,73.5s-93.3,4.1-101.1-22.4s24.9-59.4,72.9-73.5S182.9,14.1,190.7,40.5z"/>
+<line class="st1" x1="59.2" y1="72.1" x2="156.4" y2="72.1"/>
+<text transform="matrix(1 0 0 1 60.9082 61.9733)" class="st2 st3 st4">ViWos</text>
+<text transform="matrix(1 0 0 1 58.6274 87.3605)" class="st2 st5 st6">06 00 00 00 00</text>
+</svg>
